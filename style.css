@@ -1,0 +1,233 @@
+body {
+    font-family: 'Asap', Helvetica, Arial, sans-serif;
+    padding-top: 2em;
+    width: 100%;
+    margin: 0 ;
+    float: left;
+}
+
+h1{
+	font-family: 'Lora', cursive;
+	text-align: center;
+	color: #ff97e9;
+	font-size: 3em;
+
+}
+
+h2 {
+	font-weight: 700;
+	font-size: 2em;
+	color: #ff97e9;	
+}
+
+h3 {
+	color: #ff97e9;
+}
+
+.logo a{
+	color: #ff97e9;
+	text-decoration: none;
+	transition: .5s linear background;
+}
+
+.logo a:hover {
+    color: #ffb3f1;
+    transition: .5s linear background;
+}
+
+nav{
+	display: block;
+	text-align: center;
+	margin: 2%;
+	border-bottom: 1px solid #ff97e9;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    overflow: hidden;
+    transition: .5s linear color;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: #8fb6d5;	
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #ff97e9;
+    transition: .5s linear background;
+}
+
+.hero {
+	width: 100%;
+    height: 400px;
+    background-image: url('Images/hero.jpg');
+    background-size: cover;
+}
+
+.shop {
+	width: 100%;
+    height: 100%;
+    background-image: url('Images/bunbun.png');
+    background-size: cover;
+}
+
+.couple {
+	width: 100%;
+    height: 100%;
+    background-image: url('Images/couple.jpeg');
+    background-size: cover;
+}
+
+.intro {
+	display: inline-block;
+    text-align: center;
+    color: #3a6c8e;
+    margin: 5% 20%;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding-top:2%;
+}
+
+.column img{
+	width: 100%;
+}
+
+.team {
+    text-align: center;
+    color: #3a6c8e;
+    margin: 2% 10%;
+}
+
+.column2 {
+    float: left;
+    width: 50%;
+    padding:5% 0;
+
+}
+
+.column2 p{
+    padding:0 5%;
+
+}
+
+.flavours {
+	width:50%;
+	margin: 0 auto;
+}
+
+
+.column5 {
+	display: table;
+	float: left;
+    width: 20%;
+    padding:5% 0;
+}
+
+.column5 img {
+	position: relative;
+	width: 80%;
+	transition: .3s linear;
+}
+
+.column5:hover img {
+    opacity: 0.3;
+    transition: .3s linear;
+}
+
+.text {
+	z-index: 1;
+	position: absolute;
+  	color: #3b3747;
+  	font-size: 20px;
+  	text-align: center;
+  	bottom:10%;
+	opacity: 0;
+  	transition: .3s linear;
+}
+
+.text:hover {
+  opacity: 1;
+  transition: .3s linear;
+}
+
+.text1{
+	z-index: 1;
+	position: absolute;
+  	color: #3b3747;
+  	font-size: 20px;
+  	text-align: center;
+  	bottom:-13%;
+	opacity: 0;
+  	transition: .3s linear;
+}
+
+.text1:hover {
+  opacity: 1;
+  transition: .3s linear;
+}
+
+.text2{
+	z-index: 1;
+	position: absolute;
+  	color: #3b3747;
+  	font-size: 20px;
+  	text-align: center;
+  	bottom: -37%;
+	opacity: 0;
+  	transition: .3s linear;
+}
+
+.text2:hover {
+  opacity: 1;
+  transition: .3s linear;
+}
+
+.store {
+	text-align: left;
+	margin-left: 40px;
+}
+
+.buy {
+	display: inline-block;
+	padding: 5px;
+	background: #ff97e9;
+	color: white;
+	transition: .5s linear;
+}
+
+.buy:hover{
+    background: #ffb3f1;
+    transition: .5s linear;
+}
+
+.buy a{
+	text-decoration: none;
+	color: white
+}
+
+.footer {
+    width: 100%;
+    height:30px;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    bottom: 0;
+    color:white;
+    background-color: #ff97e9;
+}
+
+
